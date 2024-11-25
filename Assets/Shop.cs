@@ -14,19 +14,19 @@ public class Shop : MonoBehaviour
     {
         
     } */
-    public void PurchaseArrowTower()
-    {
-        Debug.Log("Archer Preparé");
-        buildManager.SetTowerToBuild(buildManager.standardTowerPrefab);
-    }
-        public void PurchaseCanonTower()
-    {
-        Debug.Log("Archer Preparé");
-        buildManager.SetTowerToBuild(buildManager.canonTowerPrefab);
-    }
-            public void PurchaseMageTower()
-    {
-        Debug.Log("Archer Preparé");
-        buildManager.SetTowerToBuild(buildManager.mageTowerPrefab);
-    }
+    // public void PurchaseArrowTower()
+    // {
+    //     Debug.Log("Archer Preparé");
+    //     buildManager.SetTowerToBuild(buildManager.standardTowerPrefab);
+    // }
+    //     public void PurchaseCanonTower()
+    // {
+    //     Debug.Log("Archer Preparé");
+    //     buildManager.SetTowerToBuild(buildManager.canonTowerPrefab);
+    // }
+    //         public void PurchaseMageTower()
+    // {
+    //     Debug.Log("Archer Preparé");
+    //     buildManager.SetTowerToBuild(buildManager.mageTowerPrefab);
+    // }
 }

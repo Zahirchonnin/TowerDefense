@@ -62,7 +62,6 @@ MonoBehaviour:
   SpawnPoint: {fileID: 0}
   EnemyCount: 5
   wave: 3
-  speed: 3
 --- !u!114 &-2072108678193356981
 MonoBehaviour:
   m_ObjectHideFlags: 0

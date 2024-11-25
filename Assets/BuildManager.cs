@@ -17,29 +17,23 @@ public class BuildManager : MonoBehaviour
     }
     #endregion
     public GameObject standardTowerPrefab;
-    public GameObject canonTowerPrefab;
-    public GameObject mageTowerPrefab;    
     private GameObject towerToBuild;
 
     public GameObject GetTowerToBuild()
     {
         return towerToBuild;
     }
-    public void SetTowerToBuild(GameObject _tower)
-    {
-        towerToBuild = _tower;
-    }
 
 
     // Start is called before the first frame update
-   /*  void Start()
+    void Start()
     {
         towerToBuild = standardTowerPrefab;
     }
- */
+
     // Update is called once per frame
-/*     void Update()
+    void Update()
     {
         
-    } */
+    }
 }
